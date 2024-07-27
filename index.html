@@ -4,47 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A brief description of the webpage">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Home | Christopher Toth</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#section1">Home</a></li>
-            <li><a href="#section2">Resumes</a></li>
-            <li><a href="#section3">Contact</a></li>
-        </ul>
-    </nav>
-
     <header>
-        <div id="pic">
-            <img src="" alt="" id="main-pic">
-        </div>
-        <div id="header-text">
-            <h1 class="header">Christopher Toth</h1>
-            <h3 class="header">GIS Analyst | Geophysicist</h3>
-            <h3 class="header">Spatial Data Scientist</h3>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">Resumes</a></li>
+                <li><a href="#section3">Contact and Socials</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <div id="title">
+        <div id="pic">
+            <img src="Quandry_cropped.png" alt="" id="main-pic" width=165px height=405px>
+        </div>
+        <div id="title-text">
+            <h1 class="title">Christopher Toth</h1>
+            <h3 class="title">GIS Analyst | Geophysicist</h3>
+            <h3 class="title">Spatial Data Scientist</h3>
+        </div>
+    </div>
     
+    <div class="spacer"></div>
+
     <main>
-        <section id="section2">
-            <h2>Remote Sensing Image Segmentation</h2>
-            <p>This is the second section of the webpage.</p>
+
+        <section class="project">
+            <div class="project-textL">
+                <h2 class="project">Remote Sensing Image Segmentation</h2>
+                <p class="project">This is the second section of the webpage.
+
+                </p>
+                <p class="project skills">Skills: python, pytorch, CNN, 
+                    geopandas, deep-learning
+                </p>
+            </div>
+            <div class="project-img-R">
+                <img src="co_cloudcover.png" alt="" class="project-img" width=250px height=250px>
+            </div>
         </section>
 
-        <section id="section3">
-            <h2>Section 3</h2>
-            <p>This is the third section of the webpage.</p>
+        <section class="project">
+            <h2 class="project">Earthquakes and Injection with PostGIS</h2>
+            <p class="project">Webapp that uses an API to query a PostGIS database and
+                display various interactive visualizations
+            </p>
+            <p class="project skills">Skills: Angular, AJAX, Flask, SQL,
+                PostGIS, RESTful APIs
+            </p>
         </section>
 
-        <section class="project-title">
-            <h2>Cloud Classification in MODIS images</h2>
-            <p>This is a small remote sensing classification project
+        <section class="project">
+            <h2 class="project">Cloud Classification in MODIS images</h2>
+            <p class="project">This is a small remote sensing classification project
                 using MODIS Level-2 imagry.  The objective was to
                 map the number of cloudy days in Colorado 
             </p>
-            <p class="skills">Uses: python, scikit-learn, Google Earth Engine, 
+            <p class="project skills">Skills: python, scikit-learn, Google Earth Engine, 
                 QGIS, ArcGIS Pro
             </p>
         </section>

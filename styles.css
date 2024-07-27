@@ -1,0 +1,90 @@
+.libre-franklin-body {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+* {
+    font-family: libre-franklin-body, Arial;
+    color: #323138;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    background-color: #fcfaeb;
+}
+
+a:link a:visited {
+    color: #323138;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+a:-webkit-any-link {
+    color: #323138;
+    text-decoration: none;
+    font-weight: 700;
+    padding-right: 15px;
+}
+
+nav {
+    padding: 10px;
+}
+
+div#title{
+    clear:both;
+    padding: 40px;
+}
+div.spacer {
+    clear: both;
+}
+
+div#title-text{
+    padding-left: 30px;
+    padding-top: 75px;
+}
+
+#title-text , #pic {
+    float: left
+}
+
+main {
+    clear: both;
+}
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    float: right
+}
+ul li{
+    display: inline;
+}
+
+.project {
+    padding: 5px;
+    background-color: rgb(250, 171, 52);
+    border-width: 10px;
+    border-color: rgb(0,126,180);
+    margin-left: 50px;
+}
+section.project {
+    margin-top: 50px;
+    clear: both;
+}
+
+#skills {
+    font-style: italic;
+}
+
+.project-img {
+    border: 10px solid rgb(12, 145, 202);
+    border-radius: 10px;
+}
+
+project-textL {
+    float:right;
+}
+project-imgR {
+    float:right;
+}
